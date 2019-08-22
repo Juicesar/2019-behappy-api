@@ -17,12 +17,17 @@
     "db-populate": "knex seed:run",
     "db-create": "knex migrate:latest && knex seed:run"
   },
-  "keywords": ["api", "todo", "tarefas", "hapi"],
+  "keywords": [
+    "api",
+    "todo",
+    "tarefas",
+    "hapi"
+  ],
   "author": "L A MINORA",
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^18.3.1",
-    "@hapi/joi": "^15.1.0",
+    "@hapi/joi": "^15.1.1",
     "babel-core": "^6.26.3",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-polyfill": "^6.26.0",
